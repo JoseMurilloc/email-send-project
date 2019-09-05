@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Conte suas calorias</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        * {
+            padding: 0; margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+        body {
+            background-color: rgb(184, 178, 178);
+            color: rgb(0, 0, 0);
+        }
+
+        textarea {
+            margin-top: 10px;
+        }
+        main {
+            display: inline;
+            padding: 25px;
+        }
+        h1 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        
+        <form action="/" method="POST">
+            <h1>Contact me for email</h1>
+            <input type="email" name="email" placeholder="email here...">
+            <br>
+            <textarea type="text" name="desc" placeholder="desc here..." rows=5></textarea>
+            <br>
+            
+            <input type="submit" value="Send name" class="btn btn-primary">
+        </form>
+    </main>
+
+</body>
+</html>
