@@ -24,7 +24,7 @@ routes.post('/', (req, res) => {
         if(erro) {
             return res.status(400).send('Falhou!')
         } else {
-            return res.status(200).sendFile(__dirname + '/html/hello.html')
+            return res.status(200).send('<h1>Obrigado por enviar o EMAIL</h1>')
         }
     })
 })
