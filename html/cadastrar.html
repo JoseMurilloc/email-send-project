@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastrar Usuario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        * {
+            padding: 0; margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+
+        form {
+            background-color: #f1f1f1;
+            padding: 10px 20px;
+            border: 1px solid #101010;
+            box-shadow: 10px 10px #312e2e;
+        }
+    </style>
+</head>
+<body>
+    <form action="/cadastrar" method="POST" class="container">
+        <input class="form-control" type="text" name="name" placeholder="name"><br>
+        <input class="form-control" type="text" name="age" placeholder="age"><br>
+        <input class="form-control" type="text" name="sex" placeholder="sex"><br>
+        <input class="form-control" type="text" name="height" placeholder="height"><br>
+        <input class="form-control" type="text" name="stink" placeholder="stink"><br>
+        
+        <!-- imagem   -->
+        <input class="file-path validate" lang="pt-br" type="file" name="image"> <br>
+     
+        <input class="btn btn-primary" type="submit" value="Cadastra-se">
+
+    </form>
+</body>
+</html>
